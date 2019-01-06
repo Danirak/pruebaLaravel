@@ -174,6 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Freshwork\ChileanBundle\Laravel\ChileanBundleServiceProvider::class,
 
     ],
 
@@ -223,6 +224,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Rut'   => Freshwork\ChileanBundle\Laravel\Facades\Rut::class,
 
     ],
 

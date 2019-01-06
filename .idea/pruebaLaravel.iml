@@ -15,6 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/erusev/parsedown" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/freshwork/chilean-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
@@ -28,6 +29,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/malahierba-lab/chile-rut" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
