@@ -1,4 +1,3 @@
-
 <?php
 
 /*
@@ -12,16 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/usuarios', 'UserController@index');
-
-Route::get("/usuarios/{id}", 'UserController@show')->where('id', '[0-9]+');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-route::get("/rut/{rut}", 'UserController@validarRut');
+  Route::get('/home', 'HomeController@index')->name('home');
+  Auth::routes();
+  Route::get('/', 'ActividadAprendizajeServicioController@index');
+  Route::get('/actividad-extension', 'ActividadExtensionController@index');
+  Route::post('/actividad-extension', 'ActividadExtensionController@store')->name('actividad-extension');
