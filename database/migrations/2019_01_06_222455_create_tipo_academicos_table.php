@@ -14,8 +14,11 @@ class CreateTipoAcademicosTable extends Migration
     public function up()
     {
         Schema::create('tipo_academicos', function (Blueprint $table) {
+
             $table->increments('id');
+            $table->string('nombre')->unique();
             $table->timestamps();
+
         });
     }
 
