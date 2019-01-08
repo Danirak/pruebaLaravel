@@ -338,7 +338,7 @@
 
                 /*** Get checkbox object ***/
                 var chk = objTable.rows[i].cells[0].childNodes[0];
-                if (chk.checked) {
+                if (chk.checked && (iRow-1)>0) {
                     /*** if checked we del ***/
                     objTable.deleteRow(i);
                     iRow--;
