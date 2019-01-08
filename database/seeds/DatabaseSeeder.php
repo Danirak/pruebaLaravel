@@ -18,5 +18,7 @@ class DatabaseSeeder extends Seeder
         $this->call(Tipo_Academico_Seeder::class);
         $this->call(Convenios_Seeder::class);
         $this->call(Academicos_Seeder::class);
+        $this->call(Actividades_Seeder::class);
+        $this->call(Actividad_Aprendizaje_Servicios_Seeder::class);
     }
 }

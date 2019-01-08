@@ -8,7 +8,7 @@ $factory->define(\App\convenios::class, function (Faker $faker) {
 
     return [
         'nombre'=>$faker->text(10),
-        'fecha_inicio'=>$faker->dateTime,
+        'fecha_inicio'=>$faker->dateTime($max='now'),
         'duracion'=>$faker->numberBetween(1,12),
         'organizacion_rut'=>$faker->randomElement($organizaciones),
         'tipo_convenio_id'=>$faker->numberBetween(1,$tipo)
